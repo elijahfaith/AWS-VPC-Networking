@@ -58,7 +58,8 @@ This allows to access to the instance in AWS from your terminal
 To SSH from the the Public Instance to the Private instance, theres need to copy the Key Pair into the a directory in the Public Instance
 scp -i "path/to/public-instance-key.pem" path/to/AWSStudentKey.pem ec2-user@public-instance-public-ip:~
 
-![Screenshot (153)](https://github.com/user-attachments/assets/b33cc5b5-dfa1-41a5-8766-73df482a3565)
+![Screenshot (163)](https://github.com/user-attachments/assets/4439bb0d-78cc-4fa9-afa0-62953180925b)
+
 
 To check for internet connectivity, then we must create a NAT Gatway which will allow us get control of private instance.
 A NAT (Network Address Translation) Gateway is an AWS-managed service that allows instances in a private subnet to access the internet or other AWS services without exposing these instances to inbound internet traffic. The NAT Gateway serves as an intermediary between your private subnet and the public internet.
@@ -67,6 +68,15 @@ NAT Gateways provide a reliable, secure way for resources in private subnets to 
 ![Screenshot (162)](https://github.com/user-attachments/assets/cfa8c56b-4b9a-44f4-8d04-3f401bd715cd)
 
 sudo ssh -i AWSStudentKey.pem private-ip you can then access internet connectivity
+![Screenshot (164)](https://github.com/user-attachments/assets/e5259c91-3bf5-4c90-a8d2-1b6092dff390)
+
+ping private ip of the private instance,
+This will show the internet connectivity of the Private instance to Network.
+
+![Screenshot (165)](https://github.com/user-attachments/assets/9b710861-4a34-4e28-a16b-e5dddc1136b4)
+
+
+
 
 
 
