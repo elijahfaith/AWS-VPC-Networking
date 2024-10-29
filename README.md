@@ -1,6 +1,9 @@
 # AWS-VPC-Networking
 Building a basic virtual private cloud (VPC) in AWS 
 
+![Screenshot 2024-10-29 110320](https://github.com/user-attachments/assets/ae347a25-9500-47a7-9660-900ec67c0259)
+
+
 Creating a VPC and subnettings 
 
 A Virtual Private Cloud (VPC) in AWS is a logically isolated network dedicated to your AWS account, allowing you to run AWS resources like EC2 instances within a secure virtual network. VPCs provide control over network configurations, including IP address ranges, subnets, routing tables, and security settings.
